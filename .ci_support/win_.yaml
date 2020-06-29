@@ -3,7 +3,7 @@ c_compiler:
 channel_sources:
 - conda-forge,defaults
 channel_targets:
-- qgist
+- ''
 cxx_compiler:
 - vs2017
 expat:
