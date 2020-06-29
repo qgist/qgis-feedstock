@@ -8,7 +8,7 @@ github:
 azure:
   # flag for whether or not Azure should upload the packages
   # it builds to anaconda.org
-  upload_packages: False
+  upload_packages: True
   # flag for forcing the building all supported providers
   force: False
 channels:
