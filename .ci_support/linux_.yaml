@@ -5,7 +5,7 @@ c_compiler_version:
 channel_sources:
 - conda-forge,defaults
 channel_targets:
-- conda-forge main
+- qgist
 cxx_compiler:
 - gxx
 cxx_compiler_version:
@@ -41,7 +41,7 @@ pin_run_as_build:
 proj:
 - 7.0.0
 python:
-- 3.8.* *_cpython
+- '3.8'
 qt:
 - '5.12'
 sqlite:
