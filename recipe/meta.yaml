@@ -6,9 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  git_url: https://github.com/qgist/QGIS.git
-  git_rev: {{ git_rev }}
-  git_depth: 1
+  # git_url: https://github.com/qgist/QGIS.git
+  # git_rev: {{ git_rev }}
+  # git_depth: 1
+  url: https://github.com/qgist/QGIS/archive/{{ git_rev }}.tar.gz
+  # sha256: 
   # url: https://qgis.org/downloads/qgis-{{ version }}.tar.bz2
   # sha256: 501f81715672205afd2c1a289ffc765aff96eaa8ecb49d079a58ef4d907467b8
   patches:
