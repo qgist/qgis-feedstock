@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  git_url: https://github.com/gist/QGIS.git
+  git_url: https://github.com/qgist/QGIS.git
   git_rev: {{ git_rev }}
   git_depth: 1
   # url: https://qgis.org/downloads/qgis-{{ version }}.tar.bz2
