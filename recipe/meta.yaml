@@ -1,5 +1,5 @@
-{% set git_rev = "demo001" %}
-{% set version = "3.12.2." + git_rev %}
+{% set git_rev = "demo002" %}
+{% set version = "3.14.1." + git_rev %}
 
 package:
   name: qgis
@@ -64,6 +64,7 @@ requirements:
     - expat
     - icu
     - libzip
+    - libprotobuf
     - libtasn1  # [osx]
     - exiv2
     # Qt stack.
@@ -124,6 +125,7 @@ requirements:
     - psycopg2
     - postgresql
     - exiv2
+    - libprotobuf
     # Runtime Python library deps
     - python-dateutil
     - future
