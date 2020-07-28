@@ -8,11 +8,8 @@ jobs:
     vmImage: vs2017-win2016
   strategy:
     matrix:
-      win_python3.7:
-        CONFIG: win_python3.7
-        UPLOAD_PACKAGES: 'True'
-      win_python3.8:
-        CONFIG: win_python3.8
+      win_:
+        CONFIG: win_
         UPLOAD_PACKAGES: 'True'
     maxParallel: 4
   timeoutInMinutes: 360
