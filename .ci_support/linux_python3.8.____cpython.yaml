@@ -1,11 +1,17 @@
 c_compiler:
-- vs2017
+- gcc
+c_compiler_version:
+- '7'
 channel_sources:
-- conda-forge
+- conda-forge,defaults
 channel_targets:
 - qgist main
 cxx_compiler:
-- vs2017
+- gxx
+cxx_compiler_version:
+- '7'
+docker_image:
+- condaforge/linux-anvil-comp7
 expat:
 - '2.2'
 gdal:
@@ -37,7 +43,7 @@ pin_run_as_build:
 proj:
 - 7.1.0
 python:
-- '3.8'
+- 3.8.* *_cpython
 qt:
 - '5.12'
 sqlite:
