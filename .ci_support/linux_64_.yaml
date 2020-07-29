@@ -48,3 +48,5 @@ qt:
 - '5.12'
 sqlite:
 - '3'
+target_platform:
+- linux-64
