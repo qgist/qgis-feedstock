@@ -80,9 +80,9 @@ requirements:
     # included in win-64 Qt already but needed for linux/osx
     - qtserialport  # [unix]
     # GDAL stack.
-    - gdal
+    - gdal {{ gdal }}
     - geos
-    - proj
+    - proj {{ proj }}
     # GSL for georeferencer.
     - gsl
     - sqlite

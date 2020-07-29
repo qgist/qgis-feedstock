@@ -4,3 +4,10 @@ channel_sources:
     - conda-forge,defaults
 channel_targets:
     - qgist main
+gdal:
+    - 3.1.1
+proj:
+    - 7.0.0
+pin_run_as_build:
+    gdal: x.x.x
+    proj: x.x.x
